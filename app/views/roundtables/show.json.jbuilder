@@ -1,0 +1,1 @@
+json.partial! "roundtables/roundtable", roundtable: @roundtable

@@ -1,0 +1,1 @@
+json.array! @roundtables, partial: 'roundtables/roundtable', as: :roundtable

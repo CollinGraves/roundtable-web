@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @roundtable.name %>
+</p>
+
+<p>
+  <strong>Public:</strong>
+  <%= @roundtable.public %>
+</p>
+
+<%= link_to 'Edit', edit_roundtable_path(@roundtable) %> |
+<%= link_to 'Back', roundtables_path %>
